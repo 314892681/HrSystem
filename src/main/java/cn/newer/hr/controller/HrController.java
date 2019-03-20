@@ -97,6 +97,10 @@ public class HrController {
         return hrService.getAvgSalCharts();
     }
 
+    /**
+     * 员工总页数
+     * @return
+     */
     @GetMapping("getEmployPageNums")
     public int getEmployPageNums(){
         return 1;
