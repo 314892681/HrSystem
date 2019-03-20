@@ -98,7 +98,7 @@ public class HrController {
     }
 
     /**
-     * 员工总页数
+     * 员工总页数，用于前台分页组件
      * @return
      */
     @GetMapping("getEmployPageNums")
